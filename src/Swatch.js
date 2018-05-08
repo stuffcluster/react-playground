@@ -13,7 +13,7 @@ const Row = styled.div`
   width: 50%;
   // background: pink;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   // align-self: flex-start;
 `
@@ -22,7 +22,7 @@ const Swatch=(props)=> {
   return (
     <Row>
       <Box type="color" {...props}/>
-      {props.label} {props.color}
+      <p>{props.label}</p> {props.color}
     </Row>
   )
 }

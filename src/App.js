@@ -32,7 +32,7 @@ class App extends Component {
             color={this.state.color}
           />
           <Swatch 
-            label="Background"
+            label="Page"
             onChange={this.updateBackground}
             value={this.state.background}
             color={this.state.background}
